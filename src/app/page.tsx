@@ -6,8 +6,22 @@ export default function Hero() {
       <h1 className={styles.title}>Samuel Amaro</h1>
       <p className={styles.subtitle}>Desenvolvedor Frontend | Criando experiências interativas</p>
       <div className={styles.links}>
-        <button className={styles.button}>Projetos</button>
-        <button className={styles.button}>Contato</button>
+        <a
+          href="https://www.behance.net/samuelamaro4"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.link}
+        >
+          Meu Projeto
+        </a>
+        <a
+          href="https://wa.me/5583998404188?text=Sim,%20vc%20fez%20deploy."
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.link}
+        >
+          Contato via WhatsApp
+        </a>
       </div>
     </section>
   );
