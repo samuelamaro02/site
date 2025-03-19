@@ -27,17 +27,18 @@
   gap: 15px;
 }
 
-.button {
+.link {
   padding: 10px 20px;
   border: 1px solid #30363d;
   border-radius: 6px;
   background-color: #21262d;
   color: #c9d1d9;
   font-size: 1rem;
+  text-decoration: none;
   cursor: pointer;
   transition: background 0.3s;
 }
 
-.button:hover {
+.link:hover {
   background-color: #30363d;
 }
